@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,  
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "never"
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+  }
