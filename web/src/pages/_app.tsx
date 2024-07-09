@@ -1,12 +1,20 @@
 import { type ParentComponent } from "solid-js";
 
-const RootLayout: ParentComponent = (props) => {
+import { LayersProvider } from "@/stores/layers-context";
 
-    return (
-        <>
-            {props.children}
-        </>
-    );
+import { Header } from "@/components/header";
+import { Sidebar } from "@/components/sidebar/sidebar";
+
+const RootLayout: ParentComponent = (props) => {
+  return (
+    <>
+      <LayersProvider>
+        <Header />
+        {props.children}
+        <Sidebar />
+      </LayersProvider>
+    </>
+  );
 };
 
 export default RootLayout;

@@ -1,0 +1,56 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    137.085914,
+                    -35.055532
+                ],
+                [
+                    137.127957,
+                    -35.055533
+                ],
+                [
+                    137.128053,
+                    -35.091797
+                ],
+                [
+                    137.069343,
+                    -35.091743
+                ],
+                [
+                    137.065395,
+                    -35.064441
+                ],
+                [
+                    137.060046,
+                    -35.058472
+                ],
+                [
+                    137.082507,
+                    -35.056355
+                ],
+                [
+                    137.085914,
+                    -35.055532
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "uid": "0c3bba12-93ee-40e7-9c5f-2aec3e92e6eb",
+        "name": "Yorke Peninsula Wind Farm",
+        "status": {
+            "value": "operating",
+            "source": ""
+        },
+        "technology": {
+            "family": "energy",
+            "genus": "wind",
+            "species": "onshore wind"
+        },
+        "owner": "Senvion Australia"
+    }
+}

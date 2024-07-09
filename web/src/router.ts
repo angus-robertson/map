@@ -1,16 +1,17 @@
 // Generouted, changes to this file will be overriden
 /* eslint-disable */
 
-import { components, hooks } from '@generouted/solid-router/client'
+import { components, hooks } from "@generouted/solid-router/client";
 
-export type Path =
-  | `/`
+export type Path = `/`;
 
-export type Params = {
-  
-}
+export type Params = {};
 
-export type ModalPath = never
+export type ModalPath = never;
 
-export const { A, Navigate } = components<Path, Params>()
-export const { useMatch, useModals, useNavigate, useParams } = hooks<Path, Params, ModalPath>()
+export const { A, Navigate } = components<Path, Params>();
+export const { useMatch, useModals, useNavigate, useParams } = hooks<
+  Path,
+  Params,
+  ModalPath
+>();
